@@ -6,26 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 
 <script src="jquery-1.10.2.min.js"></script>
-	<script>
-	$(document).ready(function(){
-		$("p").click(function(event){
-			alert("Test");
-		});
-	});
-
-	$(document).ready(function(){
-		$("section").click(function(){
-			$(this).hide();
-		});
-	});
-	</script>
-
-</head>
-
-<body>
-
-	<!--<script src="jquery-1.10.2.min.js"></script>
-	<script>
+	<!--<script>
 	$(document).ready(function(){
 		$("p").click(function(event){
 			alert("Test");
@@ -39,18 +20,55 @@
 	});
 	</script>-->
 
-	<section>
-		<h1 style="color:yellow; font-style:italic; font-size:42px;">
-			About Seungkyun
-		</h1>
+	<script>
+		function goto(id, t){
+			$("contentbox-wrapper").animate({"left": -($(id).position().left)}, 600);
+		}
+	</script>
 
-		<p>
-			I am a second year in MFADT, absolutely lost in thesis... I like cats and sloths. I think my new upcoming obsession is going to be either otters or alpacas. 
-			<br><br>
-			I decided to take Web 3 as I wanted to see what it is about web that mesmerizes so many people. A lot of my friends in DT are obsessed with web, and they say web is like the universe, the ocean...everything. So I wanted to take this course to see what there is in the web world, especially beyond just making things look pretty. I am excited to see where this goes. 
-		</p>
+</head>
 
-	</section>
+<body>
+	<div id="content">
+
+		<div class="contentbox-wrapper">
+
+			<div id="myName" class="contentbox">
+			<a href="#" onClick="goto('#sloth', this); return">
+				<p>
+					My name is Seungkyun.
+					<br>
+					I am a second year in MFADT, absolutely lost in thesis... 
+				</p>
+			</a>
+			</div>
+
+			<div id="cat" class="contentbox">
+				<p>I like cats.</p>
+			</div>
+
+			<div id="sloth" class="contentbox">
+				<p>I like sloths.</p>
+			</div>
+
+			<div id="otter" class="contentbox">
+				<p>I think my upcoming obsession is going to be either otters</p>
+			</div>
+
+			<div id="alpaca" class="contentbox">
+				<p>...or alpacas.</p>
+			</div>
+
+			<div id="reasonForWeb3" class="contentbox">
+				<p>
+				A lot of my friends in DT are obsessed with web, and they say web is like the universe, the ocean...everything. I decided to take Web 3 to find out what what it is that mesmerize them so much, especially beyond just making things look pretty. I am excited to see where this goes. 
+				</p>
+			</div>
+				
+
+		</div>
+
+	</div>
 
 	<div class="bg">
 
