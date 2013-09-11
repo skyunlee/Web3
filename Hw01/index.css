@@ -1,4 +1,41 @@
-.bg{
+body{
+	width: 8000px;
+	/*height: 768px;*/
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#container{
+	width: 8000px;
+}
+
+.box{
+	background-color: orange;
+	width: 1024px;
+	height: 768px;
+	float: left;
+	padding-left: 100px;
+	padding-top: 40px;
+	padding-right: 200px;
+
+	color: white;
+	font-family: "Georgia", serif;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+}
+
+a:hover {
+	color:yellow;
+}
+
+
+
+
+/*.bg{
 	background-color: orange;
 	position: fixed;
 	width: 100%;
@@ -6,40 +43,19 @@
 	top: 0;
 	left: 0;
 	z-index: -1;
-}
+}*/
 
-#content{
+/*#content{
 	overflow: hidden;
-}
+	width: 1024px;
+	height: 4608px;
+	padding-left: 0;
+	padding-top: 0;
+	background-color: orange;
+}*/
 
-.contentbox-wrapper {
-	position: relative;
-	left: 0;
-	width: 6000px;
-	height: 100%;
-}
 
-.contentbox {
-	width: 600px;
-	height: 100%;
-	float: left;
-	padding: 10px;
-	background: gray;
-	color: white;
-	font-family: "Georgia", serif;
-	font-size: 20px;
-	line-height: 28px;
-	text-align: left;
-}
 
-a {
-	text-decoration: none;
-	color: white;
-}
-
-a:hover {
-	color:yellow;
-}
 
 /*section{
 	width: 500px;
