@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 
 <script src="jquery-1.10.2.min.js"></script>
+
+<!--I got this code for side-scrolling from Raena Jackson Armitage (www.sitepoint.com/side-scrolling-site-layout-with-css-and-jquery/)-->
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("a").bind("click", function(event){
@@ -19,38 +21,7 @@
 	});
 </script>
 
-<!--<script>
-	$(document).ready(function(){
-	  $("#test").click(function(){
-	    $("#redbox").animate({left:'400px'});
-	  });
-	});
-
-</script>-->
-
-
-<!--<script>
-	$(document).ready(function(){
-		$("a").click(function(event){
-			event.preventDefault();
-			var target = $(target).offset().left, scrollTop: $(target).offset().top}, 1200);
-		});
-	});
-</script>-->
-
-	<!--<script>
-	$(document).ready(function(){
-		$("p").click(function(event){
-			alert("Test");
-		});
-	});
-
-	$(document).ready(function(){
-		$("section").click(function(){
-			$(this).hide();
-		});
-	});
-	</script>-->
+<!--////////////////////////////////-->
 
 </head>
 
@@ -59,50 +30,57 @@
 	<!--<div id="container">-->
 	
 		<section id="name" class="box">
-			<p>
-				Hello.<br>
-				My name is <a href="#cat">Seungkyun</a>.
-			</p>
-
-			<!--<div id="test">
-				click
+			<div class="textbox">
+				<p>
+					Hello.<br>
+					My name is <a href="#cat">Seungkyun</a>.
+				</p>
 			</div>
-
-			<div id="redbox" style="width:1024px; height:200px; background-color:red; position: relative;">
-			</div>-->
-
 		</section>
 
 		<section id="cat" class="box" style="background-image:url('img_cat.jpg'); background-repeat:no-repeat;">
-			<p>
-				I like <a href="#sloth">cats</a>.<br>
-				I always have, and probably always will.
-			</p>
+			<div class="textbox" style="color:#555;">
+				<p>
+					I like <a href="#sloth" style="color:#f08baf;">cats</a>.<br>
+					I always have, 
+					<br>
+					and always will.
+				</p>
+			</div>
 		</section>
 
 		<section id="sloth" class="box" style="background-image:url('img_sloth.jpg'); background-repeat:no-repeat;">
-			<p>
-				Last semester, I was obsessed with <a href="#otter">sloths</a>.
-			</p>
+			<div class="textbox" style="color:#555;">
+				<p>
+					Last semester, I was obsessed with <a href="#otter" style="color:#a1a100;">sloths</a>.
+				</p>
+			</div>
 		</section>
 
 		<section id="otter" class="box" style="background-image:url('img_otter.jpg'); background-repeat:no-repeat;">
-			<p>
-				This semester, I think I'm going to be obsessed with either <a href="#llama">otters</a>
-			</p>
+			<div class="textbox" style="color:#555;">
+				<p>
+					This semester, I think I'm going to be 
+					<br>obsessed with either <a href="#llama" style="color:#c63;">otters</a>...
+				</p>
+			</div>
 		</section>
 
 		<section id="llama" class="box" style="background-image:url('img_llama.jpg'); background-repeat:no-repeat;">
-			<p>
-				...or <a href="#last">llamas</a>.
-			</p>
+			<div class="textbox" style="color:#555;">
+				<p>
+					...or <a href="#last" style="color:#c63;">llamas</a>.
+					<br><br>
+					(Maybe both...)
+				</p>
+			</div>
 		</section>
 
 		<section id="last" class="box">
-			<div style="width: 550px;">
-				<p>While I'm obsessed with these animals, a lot of my friends are obsessed with web. They say it's the universe, the ocean...everything. 
+			<div class="textbox">
+				<p>While I'm obsessed with these animals, a lot of my friends are obsessed with web. They say web is the universe, the ocean...everything. 
 				<br><br>
-				So I decided to take Web 3 to find out what it is with web that mesmerizes them so much.</p>
+				So I decided to take Web 3 to find out what it is with web that mesmerizes them so much. I'm excited to see where this takes me.</p>
 			</div>
 		</section>
 
