@@ -49,19 +49,4 @@ body{
 	display: inline-block;
 }
 
-.delay1{
-	transition-delay: 500ms;
-}
-
-.delay2{
-	transition-delay: 200ms;
-}
-
-.delay3{
-	transition-delay: 600ms;
-}
-
-.delay4{
-	transition-delay: 350ms;
-}
 
