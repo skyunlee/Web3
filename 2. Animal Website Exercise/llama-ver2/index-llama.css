@@ -1,0 +1,161 @@
+* {margin:0; padding:0;}
+
+body{
+	background-color: #fcc;
+	font-family: "Capriola", sans-serif;
+}
+
+.container{
+	background-color: #ffc;
+	max-width: 1024px;
+	height: 100%;
+	margin: auto;
+	margin-bottom: 16%;
+}
+
+h1, h2{
+	/*background-color: red;*/
+	padding-top: 1em;
+	text-align: center;
+}
+
+h1{
+	font-size: 3rem;
+	color: #333;
+}
+
+h2{
+	font-size: 1.6rem;
+	color: #c66;
+}
+
+nav{
+	/*background-color: purple;*/
+	width: 100%;
+	margin-top: 1em;
+}
+
+nav ul a{
+	background-color: #3cc;
+	list-style-type: none;
+	display: block;
+	width: 25%;
+	float: left;
+	clear: right;
+	text-decoration: none;
+	text-align: center;
+	color: #333;
+	line-height: 200%;
+}
+
+nav ul a:hover{
+	background-color: #099;
+	color: #fff;
+
+}
+
+.img_container{
+	background-color: blue;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.welcome_text{
+	width: 90%;
+	height: auto;
+	/*background-color: lime;*/
+	margin: 5%;
+	margin-top:3%;
+/*	columns: 2;
+	-webkit-columns: 2; /*Safari and Chrome*/
+/*	-moz-columns: 2; /*Firefox*/
+}
+
+.welcome_text .paragraph_left{
+	/*background-color: blue;*/
+	width: 45%;
+	padding-right: 10%;
+	float: left;
+}
+
+.welcome_text .paragraph_right{
+	/*background-color: orange;*/
+	width: 45%;
+	float: left;
+}
+
+.clearfix:after{
+	float: none;
+}
+
+.about_llama{
+	background-color: red;
+	display: none;
+}
+
+/*************MEDIA QUERY***************/
+@media only screen and (max-width: 800px){
+	body{
+		/*width: 80%;*/
+		background-color: #9f9;
+	}
+
+	.container{
+		width: 100%;
+		margin: auto;
+	}
+
+	h1{
+		font-size: 2.5rem;
+	}
+
+	h2{
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.container{
+		background-color: white;
+	}
+
+	nav{
+		/*background-color: purple;*/
+		width: 100%;
+		margin-top: 1em;
+	}
+
+	nav ul a{
+		background-color: #6c9;
+		list-style-type: none;
+		display: block;
+		width: 50%;
+		text-decoration: none;
+		text-align: center;
+		color: #333;
+		line-height: 200%;
+	}
+
+	nav ul a:hover{
+		background-color: #396;
+		color: #fff;
+
+	}
+
+	.welcome_text{
+		width: 80%;
+		margin: auto;
+	}
+
+	.welcome_text .paragraph_left, 
+	.welcome_text .paragraph_right {
+		width: 100%;
+		padding-top: 5%;
+	}
+}

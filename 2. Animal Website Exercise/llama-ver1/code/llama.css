@@ -1,0 +1,119 @@
+body {
+	background-color: #ff9;
+	font-family: "Capriola", sans-serif;
+	font-size: 1rem;
+}
+
+.container {
+	background-color: orange;
+	/*width: 100%;*/
+	max-width: 1024px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	/*padding: 3%;*/
+	padding-bottom: 3%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.7rem;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.4rem;
+	margin-bottom: 3%;
+}
+
+nav {
+	/*background-color: lime;*/
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+nav ul a {
+	background-color: blue;
+	list-style-type: none;
+	display: inline-block;
+	width: 30%;
+	/*height: 30px;*/
+	line-height: 180%;
+	font-size: 1.0rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul a:hover {
+	color: yellow;
+	background-color: red;
+}
+
+
+.blurb {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 60%;
+	padding: 5%;
+	margin: auto;
+}
+
+.blurb p{
+	margin: auto;
+	font-size: 1rem;
+}
+
+#about_llama {
+
+}
+
+.bgimg_container {
+	width: 90%;
+	margin: auto;
+}
+
+.bgimg_container img {
+	width: 700px;
+	margin: auto;
+}
+
+
+
+/***************Media Query Stuff****************/
+/*@media (min-width: 1024px){
+	body{
+		width:1024px;
+	}
+}*/
+
+@media (max-width: 600px){
+	body {
+		background-color: red;
+	}
+	.contianer{
+		width: 100%;
+	}
+	nav ul a {
+		background-color: blue;
+		list-style-type: none;
+		display: block;
+		width: 90%;
+		margin: auto;
+		margin-bottom: 10px;
+		/*height: 30px;*/
+		line-height: 180%;
+		font-size: 1.0rem;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+	}
+	.blurb {
+		background-color: rgba(255, 255, 255, 0.7);
+		width: 80%;
+		padding: 2%;
+		margin: auto;
+	}
+
+	.bgimg_img {
+		width: 350px;
+	}
+}
