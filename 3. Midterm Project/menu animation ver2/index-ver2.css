@@ -33,29 +33,37 @@ body{
 .thm_delay1{
 	background: red;
 	width: 21%;
-	height: 21%;
+	height: 22%;
 	display: inline-block;
+	margin-left: 0;
+	margin-right: 2%;
 }
 
 .thm_delay2{
 	background: red;
 	width: 21%;
-	height: 21%;
+	height: 22%;
 	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .thm_delay3{
 	background: red;
 	width: 21%;
-	height: 21%;
+	height: 22%;
 	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .thm_delay4{
 	background: red;
 	width: 21%;
-	height: 21%;
+	height: 22%;
 	display: inline-block;
+	margin-left: 2%;
+	margin-right: 0;
 }
 
 .contact_container{
