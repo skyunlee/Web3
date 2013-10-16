@@ -28,6 +28,7 @@ body{
 	width: 90%;
 	height: 90%;
 	margin: auto;
+	overflow: hidden;
 }
 
 .thm_delay1{
@@ -37,6 +38,11 @@ body{
 	display: inline-block;
 	margin-left: 0;
 	margin-right: 2%;
+	transition: all 800ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay1.is-active{
+	-webkit-transform: translate(0,0);
 }
 
 .thm_delay2{
@@ -46,6 +52,11 @@ body{
 	display: inline-block;
 	margin-left: 2%;
 	margin-right: 2%;
+	transition: all 700ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay2.is-active{
+	-webkit-transform: translate(0,0);
 }
 
 .thm_delay3{
@@ -55,6 +66,11 @@ body{
 	display: inline-block;
 	margin-left: 2%;
 	margin-right: 2%;
+	transition: all 600ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay3.is-active{
+	-webkit-transform: translate(0,0);
 }
 
 .thm_delay4{
@@ -64,6 +80,11 @@ body{
 	display: inline-block;
 	margin-left: 2%;
 	margin-right: 0;
+	transition: all 900ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay4.is-active{
+	-webkit-transform: translate(0,0);
 }
 
 .contact_container{
