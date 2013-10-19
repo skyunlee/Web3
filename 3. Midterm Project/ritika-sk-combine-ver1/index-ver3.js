@@ -10,6 +10,7 @@ function menuShows(){
 	if(scrollValueY > menuContainerPosY){
 		// console.log("you reached the menu div");
 
+		//=====this part was for when there were only four divs to animate======//
 		// var thm_delay1 = document.getElementsByClassName("thm_delay1").item(0);
 		// thm_delay1.classList.add("is-active");
 		// var thm_delay2 = document.getElementsByClassName("thm_delay2").item(0);

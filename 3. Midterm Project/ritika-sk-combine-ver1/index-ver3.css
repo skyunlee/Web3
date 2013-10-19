@@ -196,20 +196,20 @@ h2{
 .contact_container .content_text{
 	background: lime;
 	display: inline-block;
-	margin-left: 5%;
+	/*margin-left: 5%;*/
 	/*margin-right: 1%;*/
-}
-
-.contact_container .content_text p{
-	display: inline-block;
-	background: orange;
 }
 
 .contact_container .content_text img{
 	width: 7%;
 	height: auto;
 	display: inline-block;
-	margin-right: 1%;
+	/*margin-right: 1%;*/
+}
+
+.contact_container .content_text p{
+	display: inline-block;
+	background: orange;
 }
 
 .contact_container img{
