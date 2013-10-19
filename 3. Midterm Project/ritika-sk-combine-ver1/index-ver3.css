@@ -1,0 +1,239 @@
+*{margin:0; padding:0;}
+
+body{
+	/*background: #999;*/
+	background: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.container{
+	background: white;
+	max-width: 1024px;
+	height: 2000px;
+	margin: auto;
+}
+
+.content_text{
+	font-size: 1em;
+	color: #666;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+.about_container{
+	/*background-color: lime;*/
+	width: 100%;
+	height: 40%;
+	border-bottom: solid 1px #cff;
+}
+
+/*.menu_container{
+	background-color: white;
+	width: 100%;
+	height: 40%;
+	border-bottom: solid 1px #cff;
+}
+
+#thumbnail_container{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.thm_delay1{
+	background: red;
+	width: 21%;
+	height: 22%;
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 2%;
+	transition: all 800ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay1.is-active{
+	-webkit-transform: translate(0,0);
+}
+
+.thm_delay2{
+	background: red;
+	width: 21%;
+	height: 22%;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	transition: all 700ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay2.is-active{
+	-webkit-transform: translate(0,0);
+}
+
+.thm_delay3{
+	background: red;
+	width: 21%;
+	height: 22%;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	transition: all 600ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay3.is-active{
+	-webkit-transform: translate(0,0);
+}
+
+.thm_delay4{
+	background: red;
+	width: 21%;
+	height: 22%;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 0;
+	transition: all 900ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_delay4.is-active{
+	-webkit-transform: translate(0,0);
+}*/
+
+
+/********************* MENU START ************************/
+.menu_container{
+	/*background-color: white;*/
+	padding-top: 2%;
+	width: 100%;
+	height: 40%;
+	border-bottom: solid 1px #cff;
+}
+
+#thumbnail_container{
+	padding-top: 2%;
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.thm_first_column{
+	background: lime;
+	width: 21.5%;
+	height: 90%;
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 2%;
+	transition: all 800ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_first_column.is-active{
+	-webkit-transform: translate(0,0);
+}
+
+.thm_second_column{
+	background: blue;
+	width: 21.5%;
+	height: 90%;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	transition: all 700ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_second_column.is-active{
+	-webkit-transform: translate(0,0);
+}
+
+.thm_third_column{
+	background: yellow;
+	width: 21.5%;
+	height: 90%;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	transition: all 600ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_third_column.is-active{
+	-webkit-transform: translate(0,0);
+}
+
+.thm_fourth_column{
+	background: orange;
+	width: 21.5%;
+	height: 90%;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 0;
+	transition: all 900ms cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-webkit-transform: translate(0, -110%);
+}
+.thm_fourth_column.is-active{
+	-webkit-transform: translate(0,0);
+}
+
+.thm_delay1,
+.thm_delay2,
+.thm_delay3,
+.thm_delay4{
+	background: purple;
+	width: 100%;
+	height: 23%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+/********************* MENU END ************************/
+
+.contact_container{
+	padding: 5%;
+	background: yellow;
+	width: 90%;
+	height: 15%;
+	border-bottom: solid 1px #cff;
+}
+
+.contact_container .content_text{
+	background: lime;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.contact_container .content_text p{
+	display: inline-block;
+}
+
+.contact_container .content_text img{
+	width: 10%;
+	height: auto;
+	display: inline-block;
+	margin-right: 1%;
+}
+
+.contact_container img{
+	display: inline-block;
+	margin-right: 10%;
+	width: 50%;
+}
+
+.career_container{
+	padding: 5%;
+	/*background: green;*/
+	width: 90%;
+	height: 20%;
+	border-bottom: solid 1px #cff;	
+}
+
+.career_container img{
+	width: 35%;
+	height: auto;
+	float: left;
+	margin-right: 5%;
+}
+
+.career_container .content_text{
+	color: red;
+	background: orange;
+	/*width: 20%;*/
+}
