@@ -185,6 +185,8 @@ h2{
 }
 /********************* MENU END ************************/
 
+
+/********************* CONTACT START ************************/
 .contact_container{
 	padding: 5%;
 	/*background: yellow;*/
@@ -205,6 +207,7 @@ h2{
 
 .contact_container .content_text h2{
 	margin-bottom: 20%;
+	font-size: 1.5em;
 }
 
 .phone{
@@ -255,7 +258,11 @@ h2{
 
 .map img{
 	width: 100%;
+	min-width: 400px;
 }
+
+/********************* CONTACT END ************************/
+
 
 /*
 .contact_container .content_text img{
@@ -275,23 +282,41 @@ h2{
 }
 */
 
+/********************* CAREER START ************************/
 .career_container{
-	padding: 5%;
 	/*background: green;*/
 	width: 90%;
 	height: 20%;
+	padding: 5%;
 	border-bottom: solid 1px #cff;	
 }
 
-.career_container img{
+.career_bakery_photo{
 	width: 35%;
-	height: auto;
+	margin-left: 5%;
+	display: inline-block;
 	float: left;
-	margin-right: 5%;
+}
+
+.career_bakery_photo img{
+	width: 100%;
+	min-width: 200px;
 }
 
 .career_container .content_text{
-	color: red;
-	background: orange;
-	/*width: 20%;*/
+	/*background: orange;*/
+	width: 40%;
+	float: left;
+	display: inline-block;
+	margin-top: 20%;
+	margin-left: 9%;
 }
+
+.career_container .content_text h2{
+	margin-bottom: 11%;
+}
+
+.career_container .content_text span{
+	color: #fcc;
+}
+/********************* CAREER END ************************/
