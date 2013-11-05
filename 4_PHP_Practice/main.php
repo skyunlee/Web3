@@ -51,7 +51,7 @@
 	<?php $pastryList = $menuLists['pastries'];
 		foreach($pastryList as $pastry => $pastryInfo){ ?>
 			<p class="itemName"><?php echo $pastry; ?></p>
-			<p class="itemInfo"><?php echo $pastryInfo['price']; ?> / <?php echo $pastryInfo['calories']; ?> cal</p>
+			<p class="itemInfo">$<?php echo $pastryInfo['price']; ?> / <?php echo $pastryInfo['calories']; ?> cal</p>
 			<br><?php
 		} ?>
 </article>
@@ -62,7 +62,7 @@
 	<?php $drinkList = $menuLists['drinks'];
 		foreach($drinkList as $drink => $drinkInfo){ ?>
 			<p class="itemName"><?php echo $drink; ?></p>
-			<p class="itemInfo"><?php echo $drinkInfo['price']; ?> / <?php echo $drinkInfo['calories']; ?> cal</p>
+			<p class="itemInfo">$<?php echo $drinkInfo['price']; ?> / <?php echo $drinkInfo['calories']; ?> cal</p>
 			<br><?php
 		} ?>
 
