@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<title>php exercise</title>
+		<meta name="description" content="Bakery Menu (php exercise)">
+		<meta name="author" content="Seungkyun Lee">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 

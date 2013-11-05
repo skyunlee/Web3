@@ -1,6 +1,6 @@
 
 			<footer>
-				footer is here
+				All images from Google image search.
 			</footer>
 		</div>
 	</body>
