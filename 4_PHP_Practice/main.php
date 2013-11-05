@@ -35,13 +35,38 @@
 
 <article>
 	<h2>Pastries</h2>
-	<?php 
-		$pastryList = $menuLists['pastries'];
-		foreach($pastryList as $pastry => $detail){
-			echo $pastry; ?> <br> <?php
-		}
-	?>
+	<p class="itemName">
+		<?php 
+			$pastryList = $menuLists['pastries'];
+			foreach($pastryList as $pastry => $pastryInfo){
+				echo $pastry; ?>
+				<br>
+				<p class="itemInfo">
+					$<?php echo $pastryInfo['price']; ?> / <?php echo $pastryInfo['calories']; ?> cal
+				</p>
+				<br> <?php
+			}
+		?>
+	</p>
 
+	<h2>Coffee Drinks</h2>
+	<p class="itemName">
+		<?php
+			$drinkList = $menuLists['drinks'];
+			foreach($drinkList as $drink => $drinkInfo){
+				echo $drink; ?> 
+				<br>
+				<p class="itemInfo">
+					<!--"$price / calories"-->
+					$<?php echo $drinkInfo[price]; ?> / <?php echo $drinkInfo['calories']; ?> cal
+				</p>
+				<br> <?php
+			}
+		?>
+	</p>
+
+
+	<!--code below displays the entire list of all items (pastry and drinks)-->
  <!-- 	<?php
 		foreach($menuLists as $menuList => $itemList){
 			foreach ($itemList as $item => $itemDetail){
@@ -50,14 +75,6 @@
 		}
 		// endforeach;
 	?>  -->
-
-	<h2>Coffee Drinks</h2>
-	<?php
-		$drinkList = $menuLists['drinks'];
-		foreach($drinkList as $drink => $detail){
-			echo $drink; ?> <br> <?php
-		}
-	?>
 
 
 	<!--code below didn't work-->
