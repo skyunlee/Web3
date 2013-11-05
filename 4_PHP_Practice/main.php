@@ -35,36 +35,41 @@
 
 <article class="pastries_menu">
 	<h2>Pastries</h2>
-<!-- 	<p class="itemName">
-		<?php 
-			$pastryList = $menuLists['pastries'];
-			foreach($pastryList as $pastry => $pastryInfo){
-				echo $pastry; ?>
-				<br>
-				<p class="itemInfo">
-					$<?php echo $pastryInfo['price']; ?> / <?php echo $pastryInfo['calories']; ?> cal
-				</p>
-				<br> <?php
-			}
-		?>
-	</p> -->
 	<?php $pastryList = $menuLists['pastries'];
 		foreach($pastryList as $pastry => $pastryInfo){ ?>
+			<img src="images/<?php echo $pastryInfo['filename']; ?>">
 			<p class="itemName"><?php echo $pastry; ?></p>
 			<p class="itemInfo">$<?php echo $pastryInfo['price']; ?> / <?php echo $pastryInfo['calories']; ?> cal</p>
 			<br><?php
 		} ?>
+		<!--code below works, but it's just text menu (no image)-->
+<!-- <?php $pastryList = $menuLists['pastries'];
+	foreach($pastryList as $pastry => $pastryInfo){ ?>
+		<p class="itemName"><?php echo $pastry; ?></p>
+		<p class="itemInfo">$<?php echo $pastryInfo['price']; ?> / <?php echo $pastryInfo['calories']; ?> cal</p>
+		<br><?php
+	} ?> -->
 </article>
 
 
 <article class="drinks_menu">
 	<h2>Coffee Drinks</h2>
-	<?php $drinkList = $menuLists['drinks'];
+		<!--somehow worked-->
+		<?php $drinkList = $menuLists['drinks'];
 		foreach($drinkList as $drink => $drinkInfo){ ?>
+			<img src="images/<?php echo $drinkInfo['filename']; ?>">
 			<p class="itemName"><?php echo $drink; ?></p>
 			<p class="itemInfo">$<?php echo $drinkInfo['price']; ?> / <?php echo $drinkInfo['calories']; ?> cal</p>
 			<br><?php
 		} ?>
+
+		<!--code below works (displays text menu without images-->
+<!-- 	<?php $drinkList = $menuLists['drinks'];
+		foreach($drinkList as $drink => $drinkInfo){ ?>
+			<p class="itemName"><?php echo $drink; ?></p>
+			<p class="itemInfo">$<?php echo $drinkInfo['price']; ?> / <?php echo $drinkInfo['calories']; ?> cal</p>
+			<br><?php
+		} ?> -->
 
 
 	<!--code below displays the entire list of all items (pastry and drinks)-->
@@ -76,6 +81,7 @@
 		}
 		// endforeach;
 	?>  -->
+
 
 
 	<!--code below didn't work-->
